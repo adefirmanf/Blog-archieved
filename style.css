@@ -1,0 +1,138 @@
+
+body {
+    margin-top : 5px;
+    font-family: 'Lato', sans-serif !important;
+}
+body::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+header{
+    padding : 5px;
+}
+.navbar{
+    font-family: 'Lato', sans-serif;
+    font-size : 16px;   
+}
+.sidebar{
+    float : right;
+
+}
+.thumbnail{
+    margin-top : 5px;
+    margin-bottom : 5px;
+    width: 100%;
+    height : 50%;
+}
+.thumbnail>img{
+    /* width: 400px;
+    height: 300px;
+    margin: -75px 0 0 -100px; */
+}
+.sidebar-title{
+    background-color : rgb(243, 243, 243);
+    padding : 5px;
+    height : auto;
+    font-weight: 550;
+}
+.sidebar > .sidebar-item {
+    padding : 5px;
+    font-size : 14px;
+    color : gray;
+    margin-bottom : 10px;
+}
+
+.sidebar > .sidebar-item > ul > li {
+    list-style: circle;
+}
+.sidebar > .sidebar-item > ul > li > a:visited {
+    color : gray;
+    list-style: square;
+}
+.brand{
+    margin-right : 30px;
+    float : left;
+}
+.nav-item{
+    padding-left : 10px;
+    padding-right: 10px;
+}
+.header > brand > a:link, a:active, a:visited{
+    color : gray;
+    text-decoration: none;
+    font-size : 16px;
+}
+a:hover{
+    text-decoration: none;
+    color : rgb(55, 51, 51);
+}
+.language{
+    float : right;
+}
+.language > ul > li {
+    padding-left : 5px;
+    padding-right : 5px;
+    float : right;
+    list-style: none;
+}
+.menu{
+    float : left;
+}
+.menu > ul > li {
+    padding-left : 25px;
+    padding-right : 25px;
+    float : left;
+    list-style: none;
+}
+.restrict-size{
+    max-width: 400px;
+}
+section{
+    margin-top : 30px;
+    margin-bottom : auto;
+}
+.jumbotron{
+    background-image: url('ramen.png');
+    background-position: center;
+
+}
+.main-content-list{
+    float : left;
+    margin-bottom : 15px;
+    width: 100%;
+}
+.main-content-list-title{
+    font-weight: 550;
+    background-color : rgb(243, 243, 243);
+    padding : 5px;
+    height: auto;
+}
+.main-content-list-description{
+    color : gray;
+    font-size : 14px;
+}
+.date-posted{
+    color : gray;
+    text-align: right;
+    font-size : 14px;
+    font-weight: 500;
+}
+footer{
+    float: right;
+    margin-top : 5px;
+    text-align: center;
+    bottom : 0;
+    width: 100%;
+    position : relative;
+    font-size : 14px;
+    color : gray;
+}
